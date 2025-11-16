@@ -39,4 +39,4 @@ This repo includes both CSS for the theme and SCSS source files. If you're new t
 ## Notice of insanity
 
 if you couldn't tell, development for this is driving me insane, since all the documentation is either on the shitty discord or on the community wiki, which is also incomplete.
-![pussycat](https://i.imgur.com/K52Lk9i.gifv)
+![pussycat](https://i.imgur.com/K52Lk9i.gif)
