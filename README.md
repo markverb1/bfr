@@ -1,7 +1,7 @@
 # BFR
 
 ![Foundry v12](https://img.shields.io/badge/foundry-v12-green)
-![THE MOST SCIENTIFICALLY/FICTIONALLY ACCURATE GAME AVAILABLE](https://magrasea.bibliotheque.dev:8080/boykisserfr.png)
+![THE MOST SCIENTIFICALLY/FICTIONALLY ACCURATE GAME AVAILABLE](https://i.imgur.com/HN4PcfS.png)
 
 Bunkers, Furries & Robots System for Foundry VTT v12
 
@@ -35,3 +35,8 @@ This system includes a handful of helper CSS classes to help you lay out your sh
 This repo includes both CSS for the theme and SCSS source files. If you're new to CSS, it's probably easier to just work in those files directly and delete the SCSS directory. If you're interested in using a CSS preprocessor to add support for nesting, variables, and more, you can run `npm install` in this directory to install the dependencies for the scss compiler. After that, just run `npm run build` to compile the SCSS and start a process that watches for new changes.
 
 ![image](http://mattsmith.in/images/bfr.png)
+
+## Notice of insanity
+
+if you couldn't tell, development for this is driving me insane, since all the documentation is either on the shitty discord or on the community wiki, which is also incomplete.
+![pussycat](https://i.imgur.com/K52Lk9i.gif)
