@@ -7,11 +7,11 @@ import {
  * Extend the basic ItemSheet with some very simple modifications
  * @extends {ItemSheet}
  */
-export class BoilerplateItemSheet extends ItemSheet {
+export class BFRItemSheet extends ItemSheet {
   /** @override */
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ['boilerplate', 'sheet', 'item'],
+      classes: ['bfr', 'sheet', 'item'],
       width: 520,
       height: 480,
       tabs: [
@@ -26,7 +26,7 @@ export class BoilerplateItemSheet extends ItemSheet {
 
   /** @override */
   get template() {
-    const path = 'systems/boilerplate/templates/item';
+    const path = 'systems/bfr/templates/item';
     // Return a single sheet for all item types.
     // return `${path}/item-sheet.hbs`;
 
@@ -43,7 +43,7 @@ export class BoilerplateItemSheet extends ItemSheet {
     const context = super.getData();
 
     // Use a safe clone of the item data for further operations.
-    const itemData = this.document.toObject(false);
+    const itemData = this.document.toPlainObject();
 
     // Enrich description info for display
     // Enrichment turns text like `[[/r 1d20]]` into buttons
@@ -65,8 +65,8 @@ export class BoilerplateItemSheet extends ItemSheet {
     context.system = itemData.system;
     context.flags = itemData.flags;
 
-    // Adding a pointer to CONFIG.BOILERPLATE
-    context.config = CONFIG.BOILERPLATE;
+    // Adding a pointer to CONFIG.BFR_CONST
+    context.config = CONFIG.BFR_CONST;
 
     // Prepare active effects for easier access
     context.effects = prepareActiveEffectCategories(this.item.effects);

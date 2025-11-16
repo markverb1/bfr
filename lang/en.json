@@ -1,5 +1,5 @@
 {
-  "BOILERPLATE": {
+  "BFR_CONST": {
     "Ability": {
       "Str": { "long": "Strength", "abbr": "str" },
       "Con": { "long": "Constitution", "abbr": "con" },
@@ -9,8 +9,8 @@
       "Cha": { "long": "Charisma", "abbr": "cha" }
     },
     "SheetLabels": {
-      "Actor": "Boilerplate Actor Sheet",
-      "Item": "Boilerplate Item Sheet"
+      "Actor": "BFR Actor Sheet",
+      "Item": "BFR Item Sheet"
     },
     "Item": {
       "Spell": {

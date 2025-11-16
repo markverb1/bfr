@@ -1,23 +1,23 @@
-export const BOILERPLATE = {};
+export const BFR_CONST = {};
 
 /**
  * The set of Ability Scores used within the system.
  * @type {Object}
  */
-BOILERPLATE.abilities = {
-  str: 'BOILERPLATE.Ability.Str.long',
-  dex: 'BOILERPLATE.Ability.Dex.long',
-  con: 'BOILERPLATE.Ability.Con.long',
-  int: 'BOILERPLATE.Ability.Int.long',
-  wis: 'BOILERPLATE.Ability.Wis.long',
-  cha: 'BOILERPLATE.Ability.Cha.long',
+BFR_CONST.abilities = {
+  str: 'BFR_CONST.Ability.Str.long',
+  dex: 'BFR_CONST.Ability.Dex.long',
+  con: 'BFR_CONST.Ability.Con.long',
+  int: 'BFR_CONST.Ability.Int.long',
+  wis: 'BFR_CONST.Ability.Wis.long',
+  cha: 'BFR_CONST.Ability.Cha.long',
 };
 
-BOILERPLATE.abilityAbbreviations = {
-  str: 'BOILERPLATE.Ability.Str.abbr',
-  dex: 'BOILERPLATE.Ability.Dex.abbr',
-  con: 'BOILERPLATE.Ability.Con.abbr',
-  int: 'BOILERPLATE.Ability.Int.abbr',
-  wis: 'BOILERPLATE.Ability.Wis.abbr',
-  cha: 'BOILERPLATE.Ability.Cha.abbr',
+BFR_CONST.abilityAbbreviations = {
+  str: 'BFR_CONST.Ability.Str.abbr',
+  dex: 'BFR_CONST.Ability.Dex.abbr',
+  con: 'BFR_CONST.Ability.Con.abbr',
+  int: 'BFR_CONST.Ability.Int.abbr',
+  wis: 'BFR_CONST.Ability.Wis.abbr',
+  cha: 'BFR_CONST.Ability.Cha.abbr',
 };
