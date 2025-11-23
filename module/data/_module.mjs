@@ -8,3 +8,4 @@ export {default as BFRItemBase} from "./base-item.mjs";
 export {default as BFRItem} from "./item-item.mjs";
 export {default as BFRFeature} from "./item-feature.mjs";
 export {default as BFRSpell} from "./item-spell.mjs";
+export {default as BFRChargedItem} from "./item-charged.mjs";

@@ -24,7 +24,7 @@
       "thumbnail": "systems/bfr/assets/anvil-impact.png"
     }
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "compatibility": {
     "minimum": 12,
     "verified": "12.331"
@@ -44,8 +44,8 @@
   "manifest": "https://raw.githubusercontent.com/markverb1/bfr/refs/heads/main/system.json",
   "download": "https://github.com/markverb1/bfr/archive/refs/heads/main.zip",
   "background": "systems/bfr/assets/anvil-impact.png",
-  "grid.distance": 1,
-  "grid.units": "m",
+  "gridDistance": 1,
+  "gridUnits": "m",
   "primaryTokenAttribute": "totalHealth",
   "secondaryTokenAttribute": "stamina"
 }
