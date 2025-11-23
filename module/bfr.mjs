@@ -49,7 +49,8 @@ Hooks.once('init', function () {
   CONFIG.Item.dataModels = {
     item: models.BFRItem,
     feature: models.BFRFeature,
-    spell: models.BFRSpell
+    spell: models.BFRSpell,
+    charged: models.BFRChargedItem
   }
 
   // Active Effects are never copied to the Actor,
