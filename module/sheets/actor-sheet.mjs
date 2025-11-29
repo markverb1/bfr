@@ -181,7 +181,7 @@ export class BFRActorSheet extends ActorSheet {
       onManageActiveEffect(ev, document);
     });
 
-    // Rollable abilities.
+    // Rollable attributes.
     html.on('click', '.rollable', this._onRoll.bind(this));
 
     // Drag events for macros.
@@ -243,7 +243,7 @@ export class BFRActorSheet extends ActorSheet {
 
     // Handle rolls that supply the formula directly.
     if (dataset.roll) {
-      let label = dataset.label ? `[ability] ${dataset.label}` : '';
+      let label = dataset.label ? `[attribute] ${dataset.label}` : '';
       let roll = new Roll(dataset.roll, this.actor.getRollData());
       roll.toMessage({
         speaker: ChatMessage.getSpeaker({ actor: this.actor }),

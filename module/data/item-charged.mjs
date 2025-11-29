@@ -11,7 +11,11 @@ export default class BFRChargedItem extends BFRItemBase {
       initial: 1,
       min: 1,
     });
-    schema.charges = new fields.NumberField({ ...requiredInteger, initial: 1 });
+    schema.charges = new fields.NumberField({
+      ...requiredInteger,
+      initial: 1,
+      min: 0,
+    });
     schema.chargeType = new fields.DocumentIdField({
       required: true,
       blank: true,

@@ -1,12 +1,14 @@
 {
   "BFR_CONST": {
-    "Ability": {
+    "Attribute": {
       "Str": { "long": "Strength", "abbr": "str" },
-      "Con": { "long": "Constitution", "abbr": "con" },
       "Dex": { "long": "Dexterity", "abbr": "dex" },
+      "Agi": { "long": "Agility", "abbr": "agi" },
+      "Hel": { "long": "Health", "abbr": "hel" },
+      "Per": { "long": "Perception", "abbr": "per" },
       "Int": { "long": "Intelligence", "abbr": "int" },
-      "Wis": { "long": "Wisdom", "abbr": "wis" },
-      "Cha": { "long": "Charisma", "abbr": "cha" }
+      "Cha": { "long": "Charisma", "abbr": "cha" },
+      "Wil": { "long": "Will", "abbr": "wil" }
     },
     "SheetLabels": {
       "Actor": "BFR Actor Sheet",
