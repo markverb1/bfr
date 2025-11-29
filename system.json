@@ -44,8 +44,11 @@
   "manifest": "https://raw.githubusercontent.com/markverb1/bfr/refs/heads/main/system.json",
   "download": "https://github.com/markverb1/bfr/archive/refs/heads/main.zip",
   "background": "systems/bfr/assets/anvil-impact.png",
-  "gridDistance": 1,
-  "gridUnits": "m",
+
+  "grid": {
+    "distance": 1,
+    "units": "m"
+  },
   "primaryTokenAttribute": "totalHealth",
   "secondaryTokenAttribute": "stamina"
 }
